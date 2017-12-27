@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ComponenteLodashComponent } from './componente-lodash/componente-lodash.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComponenteLodashComponent
   ],
   imports: [
     BrowserModule

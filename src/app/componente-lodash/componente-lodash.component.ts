@@ -64,7 +64,7 @@ export class ComponenteLodashComponent implements OnInit {
 
     //Clonamos un objeto
 var objB = _.cloneDeep(datos);
-console.log('Clonamos un objeto':objB);
+console.log('Clonamos un objeto'+objB);
 
 
   }
